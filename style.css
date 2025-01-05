@@ -267,3 +267,69 @@ nav button {
 }
 
 /* section 3 end  */
+
+/* faq section start */
+
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 34px;
+}
+
+.faq-box{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.faq-box:hover{
+    transition: all 0.250s ease-in-out;
+    background-color: #414141;
+}
+
+/* faq section end */
+
+/* footer start */
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions{
+    padding: 34px 0;
+}
+
+
+.footer a{
+    color: #aeaeae;
+    font-size: 14px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* footer end */
