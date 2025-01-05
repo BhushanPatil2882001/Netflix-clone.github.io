@@ -150,3 +150,120 @@ nav button {
     background-color: rgba(0, 0, 0, 0.452);
     border: 1px solid rgba(248, 248, 248, 0.37);
 }
+
+
+/* section 1 start */
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first> div :nth-child(2){
+    font-size: 24px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.secImg{
+    margin-top: 20px;
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    /* width: 490px; */
+    width: calc(30vw - 40px);
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    right:0;
+}
+
+/* seciont 1 end */
+
+/* section 2 start */
+
+.second > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.second> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second> div :nth-child(2){
+    font-size: 24px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.second-img{
+    position: relative;
+    display: inline-block;
+}
+
+
+.second-img video{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    width: 65%;
+    height: 50%;
+    /* width: calc(30vw - 150px); */
+    /* margin-left: 50px; */
+}
+
+/* section 2 end */
+/* section 3 start */
+
+.third > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.third> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.third> div :nth-child(2){
+    font-size: 24px;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+/* section 3 end  */
